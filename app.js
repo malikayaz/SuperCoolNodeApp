@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
           // Print out the response body
           console.log('Here is the response');
           var json = JSON.parse(body);
-          console.log(json);
+          //console.log(json);
           res.write(body);
       }
       else{
